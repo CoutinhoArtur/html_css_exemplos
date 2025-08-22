@@ -1,1 +1,21 @@
-/* Digitação (Aqui) */
+h1{
+        /* Sombreamento */
+        /* offset-x  offset-y  blur  color */
+        text-shadow: 2px 1px 5px black; 
+}
+
+        /* Estilizando imagens */
+
+img{
+        border: 3px solid red;
+        border-radius: 10px;
+        transition: transform 0,3;
+}
+
+img:hover{
+        /* transform: scale(1.10) */
+        /* transform: rotate(-45deg) */
+        transform: (1.1);
+        border-color: blue;
+        opacity: 0.3; 
+}
